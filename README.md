@@ -5,6 +5,8 @@ $ sudo apt-get update
 
 $ sudo apt-get install ros-kinetic-cv-bridge -y
 
+$ sudo apt-get install ros-kinetic-diagnostics
+
 $ sudo apt-get install ros-kinetic-image-transport -y
 
 $ sudo apt-get install ros-kinetic-camera-info-manager -y

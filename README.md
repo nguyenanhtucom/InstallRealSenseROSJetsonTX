@@ -17,9 +17,16 @@ $ sudo apt-get install ros-kinetic-pcl-ros -y
 
 $ sudo apt-get install ros-kinetic-rgbd-launch -y
 
+
+$ ./installRealSenseROS.sh jetsonbot
+
+
 $ sudo apt-get install ros-kinetic-rviz
 
 $ sudo apt-get install ros-kinetic-rqt-reconfigure
 
-$ ./installRealSenseROS.sh jetsonbot
+$ cd jetsonbot
 
+$ source devel/setup.bash
+
+$ roscd realsense2_camera
